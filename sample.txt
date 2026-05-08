@@ -1,0 +1,26 @@
+6
+Demo One.
+Generate Key. Encrypt and Decrypt.
+Original: Hello, RSA!
+Encrypted: kqpTY68FUTErH6YdUQaPSitJt2609x2ju25L1izHOhwjyGsKQfIsEdb82hJM3Nw+A6niQVyjSd5MRnymT/YFaH47HC2/CmkcDYr3OP8yb46rDuOXEXs+3zTo79wVjeYtcmAzbS2Co7mitbBxFNripBouiHKAMZMd4LmS5vnBdtzmpzbrbaf2IfdLUdvg6KyLzySuISyUYwIR5R3vxL45MYpqFSYoyHzd3mvxPUXO5xHg42RwSNk/alX5P4g7tEVzjB3KCxiMyx42zVlIvzPy2QQZzKQXb1HKNGU04KW/Bp23xE+HpHUcXV6z47lM373T37cfnh6VIkFUbM3Pf6hSTg==
+Decrypted: Hello, RSA!
+
+
+Demo Three.
+View Key from X509 Secure Storage Container.
+Subject: CN=TestCertificate
+Thumbprint: 46C0589B6FD5CEA4B2A9FDE2DBC5E3EAC75A050A
+Has Private Key: True
+Public Key: 30 82 01 22 30 0D 06 09 2A 86 ...
+
+
+Demo Four.
+Encrypt a string and write it to an encrypted file.
+PLAINTEXT: Hello RSA!
+Wrote file: RSAOne.bin
+
+
+Demo Five.
+Decrypt a file and print to screen.
+Decrypted Message: Hello RSA!
+File read: RSAOne.bin
